@@ -76,7 +76,7 @@ h2 {
   margin: 40px 0 12px;
 }
 
-p { color: var(--text-secondary); margin: 0 0 16px; }
+p { color: var(--text-secondary); margin: 0 0 16px; overflow-wrap: break-word; }
 
 .hero {
   text-align: center;
