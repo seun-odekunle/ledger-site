@@ -60,6 +60,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 
 .hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 430px); gap: 40px 72px; align-items: center; padding-block: clamp(20px, 5vw, 56px) 8px; }
 .pitch { display: flex; flex-direction: column; gap: 18px; max-width: 30rem; }
+.pitch .kicker { margin: 0; font-size: 15px; font-weight: 600; letter-spacing: 0.01em; color: var(--accent); }
 .pitch h1 { margin: 0; font-size: clamp(40px, 5.4vw, 64px); line-height: 1.02; letter-spacing: -0.035em; font-weight: 700; text-wrap: balance; }
 .pitch .lede { margin: 0; font-size: clamp(18px, 1.6vw, 21px); line-height: 1.5; color: var(--body); }
 .pitch .devices { margin: 0; font-size: 15px; color: var(--muted); }

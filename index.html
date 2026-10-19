@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Ledger · Your day, on one page</title>
-<meta name="description" content="Ledger keeps habits, tasks, a journal and moods on one page for each day. No account, no ads. In beta on TestFlight for iPhone and iPad.">
+<title>Ledger: Habit and Mood Tracker · Your day, on one page</title>
+<meta name="description" content="Ledger is a habit and mood tracker with tasks and a journal, all on one page for each day. No account, no ads. In beta on TestFlight for iPhone and iPad.">
 <meta name="color-scheme" content="light dark">
 <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0C0D15" media="(prefers-color-scheme: dark)">
@@ -12,9 +12,32 @@
 <link rel="icon" type="image/png" href="images/favicon.png">
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Ledger · Your day, on one page">
-<meta property="og:description" content="Habits, tasks, a journal and moods, kept together for each day. Ledger reports what happened and never grades it.">
+<meta property="og:title" content="Ledger: Habit and Mood Tracker · Your day, on one page">
+<meta property="og:description" content="A habit and mood tracker with tasks and a journal, kept together for each day. Ledger reports what happened and never grades it.">
 <meta property="og:url" content="https://keepingledger.com/">
+<meta property="og:site_name" content="Ledger">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "Ledger",
+      "alternateName": "Keeping Ledger",
+      "url": "https://keepingledger.com/"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Ledger",
+      "alternateName": "Ledger: Habit & Mood Tracker",
+      "operatingSystem": "iOS, iPadOS",
+      "url": "https://keepingledger.com/",
+      "image": "https://keepingledger.com/images/ledger-icon.png",
+      "description": "A habit and mood tracker with tasks and a journal, kept together on one page for each day."
+    }
+  ]
+}
+</script>
 <link rel="stylesheet" href="home.css">
 <script src="home.js" defer></script>
 </head>
@@ -27,6 +50,7 @@
 
   <section class="hero">
     <div class="pitch">
+      <p class="kicker">Habit and mood tracker, with tasks and a journal</p>
       <h1>Your day, on one page.</h1>
       <p class="lede">Habits, tasks, a journal and moods, kept together for each day. Ledger reports what happened and never grades it. When a habit sticks, it graduates.</p>
       <p class="devices">iPhone and iPad in beta on TestFlight. Mac and Apple Watch are coming.</p>
